@@ -1,9 +1,25 @@
-1. Install nodejs, preferably the latest stable version.
-2. Clone the repository or download and extract the files
-3. Using command prompt go the to folder location using cd command
-4. Install packages, run command : npm install
-5. Go to client folder using command: cd client
-6. If u dont have react-app in your machine install one globally using the command: npm install -g create-react-app
-7. Install packages in client folder using command command npm install
-8. use the command: npm start   
-9. The development server will start the server at localhost:3000
+# Collaborative Code Playground Demo
+
+A collaborative code playground built with Pusher Channels and React. Tutorial: https://pusher.com/tutorials/code-playground-react
+
+## Getting Started
+
+1. Clone this repository and `cd` into it.
+2. Execute `npm install` to download dependencies.
+3. See tutorial for notes on how to get the required credentials from Channels.
+4. Open `client/src/App.js` and `.env` and update them with your Channels credentials.
+5. Run `node server.js` to start the Express server.
+6. `cd` into the client folder, run `npm install` followed by `npm start` to start the development server. Open http://localhost:3000 in your browser.
+
+## Pre-requisites
+
+- [Node.js](https://nodejs.org/en) and npm
+
+## Built With
+
+- [React](https://reactjs.org)
+- [Pusher Channels](https://pusher.com/channels)
+
+## Licence
+
+[MIT](https://opensource.org/licenses/MIT)
